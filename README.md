@@ -102,9 +102,6 @@ http://localhost:631
 ```
 tar cvpzf backup.tgz –exclude=/proc –exclude=/lost+found –exclude=/backup.tgz –exclude=/mnt –exclude=/sys –exclude=/web /
 ```
-```
-ls -lh /backup.tgz
-```
 ## Создание точки восстановления системы
 Создание точек восстановления системы подразумевается в ОС Windows. В Linux это не предусмотрено, только резервное копирование
 ## Создать группы пользователей, настроить права доступа
